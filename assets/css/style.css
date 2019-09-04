@@ -1,8 +1,16 @@
 
+b{
+  font-family: 'Raleway', sans-serif;
+}
+
+
 .color-celeste{
 
 background-color: #06B6D6;
 
+}
+.text-celeste{
+  color: #06B6D6;
 }
 
 a{
@@ -32,4 +40,9 @@ a:hover {
   height: 12px;
   border-radius: 100%;
   background-color: #dddddd;
+}
+
+.f-logo{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: 700;
 }

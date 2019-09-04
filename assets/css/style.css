@@ -1,0 +1,23 @@
+
+.color-celeste{
+
+background-color: #06B6D6;
+
+}
+
+a{
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #6c757d;
+}
+
+
+.bg-hero{
+  /* text-align: right; */
+  background-image: url('../img/bg_hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}

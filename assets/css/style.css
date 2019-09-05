@@ -26,12 +26,15 @@ a:hover {
 }
 
 
-.bg-hero{
-  /* text-align: right; */
+header{
+
   background-image: url('../img/bg_hero.png');
   background-repeat: no-repeat;
-  /* background-size: cover; */
-   background-position: center;
+ background-size: cover;
+ background-position: center;
+ /* vertical-align: bottom; */
+    /* padding-bottom: 10rem; */
+    /* vertical-align:align-text-bottom; */
 
 }
 
@@ -50,4 +53,9 @@ a:hover {
 .f-logo{
   font-family: 'Gloria Hallelujah', cursive;
   font-weight: 700;
+}
+
+
+.card{
+  width: 90%;
 }

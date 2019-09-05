@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<!--
+tooltip
+organizar código-->
+
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -23,7 +27,7 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-lg  navbar-dark  color-celeste  ">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark  color-celeste  ">
     <a class="navbar-brand f-logo pl-3 " href="#"><i class="fas fa-snowflake"></i> Eli Carreño </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -36,20 +40,25 @@
         <li class="nav-item active">
           <a class="nav-link" href="#experiencia">Experiencia</a>
         </li>
+
         <li class="nav-item active">
           <a class="nav-link" href="#trabajos">Trabajos</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="#contacto">Contacto</a>
         </li>
+
       </ul>
     </div>
     </nav>
 
 
-    <header class="bg-hero text-center vh-100 text-white">
-        <h2>Yo soy</h2>
-        <span class="border-top  logo h1">Eli Carreño</span>
+    <header class="bg-hero text-center  vh-100 text-white ">
+
+
+        <h2 class="yo-soy">Yo soy</h2>
+        <span class="border-top align-text-bottom logo h1">Eli Carreño</span>
+
     </header>
 
     <section id="sobre-mi" class=" mt-5 mx-5 px-5 d-none d-md-block">
@@ -68,24 +77,21 @@
         </div>
     </section>
 
-    <section id="experiencia">
-     <h2 class="f-logo text-center">Mi experiencia</h2>
+    <section id="experiencia" class="text-center">
+     <h2 class="f-logo">Mi experiencia</h2>
      <div class="container">
        <div class="row">
-         <div class="col-12 col-md-6">
-        <i class="fas fa-chart-line"></i>
-
-         </div>
-         <div class="col-12 col-md-6">
-<i class="fas fa-brain"></i>
-
-         </div>
+         <div class="col-12 col-md-6"><i class="fas fa-chart-line fa-2x"></i></div>
+         <div class="col-12 col-md-6"><i class="fas fa-brain fa-2x"></i></div>
        </div>
-
      </div>
 
+
+
+
 <h2 class="f-logo text-center text-seconday">Mis Skills</h2>
-     <div class="container">
+
+     <div class="container text-center">
 
        <div id="carouselExampleIndicators" class="carousel slide py-5" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -97,16 +103,16 @@
         <div class="carousel-item active">
           <div class="row">
             <div class="col-3">
-              <i class="fab fa-java"></i>
+              <i class="fab fa-java fa-2x" data-toggle="tooltip" data-placement="bottom" title="Java"></i>
             </div>
             <div class="col-3">
-        <i class="fab fa-python"></i>
+        <i class="fab fa-python fa-2x"data-toggle="tooltip" data-placement="bottom" title="Python"></i>
             </div>
             <div class="col-3">
-            <i class="fas fa-database"></i>
+            <i class="fas fa-database fa-2x" data-toggle="tooltip" data-placement="bottom" title="Sql"></i>
             </div>
             <div class="col-3">
-        <i class="fas fa-calculator"></i>
+        <i class="fas fa-calculator fa-2x" data-toggle="tooltip" data-placement="bottom" title="Analytics"></i>
             </div>
           </div>
         </div>
@@ -114,23 +120,19 @@
           <div class="carousel-item">
             <div class="row">
               <div class="col-3">
-                <i class="fas fa-robot"></i>
+                <i class="fas fa-robot fa-2x" data-toggle="tooltip" data-placement="bottom" title="Inteligencia Artificial"></i></div>
+              <div class="col-3">
+              <i class="fas fa-code fa-2x" data-toggle="tooltip" data-placement="bottom" title="HTML"></i>
               </div>
               <div class="col-3">
-              <i class="fas fa-code"></i>
+                <i class="fab fa-css3-alt fa-2x" data-toggle="tooltip" data-placement="bottom" title="Css"></i>
               </div>
               <div class="col-3">
-                <i class="fab fa-css3-alt"></i>
+              <i class="fab fa-js-square fa-2x" data-toggle="tooltip" data-placement="bottom" title="JavaScript"></i>
               </div>
-              <div class="col-3">
-              <i class="fab fa-js-square"></i>
-              </div>
-
             </div>
           </div>
-
         </div>
-
       </div>
 
      </div>

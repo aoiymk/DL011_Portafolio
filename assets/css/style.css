@@ -1,3 +1,7 @@
+yo-soy{
+  vertical-align: bottom;
+}
+
 
 b{
   font-family: 'Raleway', sans-serif;
@@ -26,7 +30,8 @@ a:hover {
   /* text-align: right; */
   background-image: url('../img/bg_hero.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
+   background-position: center;
 
 }
 
